@@ -1,1 +1,34 @@
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 46px;
+}
 
+h3 { 
+    font-family: 'Open Sans', sans-serif;
+    font-size: 28px
+}
+
+.personal {
+    font-family: 'Merriweather', serif; 
+    font-size: 14px;
+}
+
+.topic {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px
+}
+
+.location {
+    font-family: 'Merriweather', serif; 
+    font-size: 14px;
+}    
+
+.date {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px
+}
+
+li {
+    font-family: 'Merriweather', serif; 
+    font-size: 14px;
+}
