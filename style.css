@@ -1,58 +1,43 @@
 body {
-    font-family: 'Open Sans', sans-serif;
-    background-color: whitesmoke;
-
+  font-family: "Montserrat", sans-serif;
+  background-color: whitesmoke;
 }
 
 .container {
-    max-width: 950px;
-    margin: 50px auto;
-
-	padding: 50px 100px 100px 100px;
-
-    border-radius: 10px;
-    background-color: white;
-	border: 1px solid #111;
-	text-align: left;
-}
-h1 {
-    font-size: 48px;
-    font-weight: bold;
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 50px 100px;
+  border-radius: 10px;
+  background-color: rgb(245, 234, 242);
+  border: 1px solid #111;
 }
 
-h3 {  
-    font-size: 26px;
-    font-weight: bold;
-    margin-top: 50px; 
-    margin-bottom: -5px;
+.title {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  margin: 25px;
 }
 
-.personal h4 {  
-    font-size: 14px;
-    margin-bottom: -15px;
+.profile-image {
+  border-radius: 50%;
+  height: 200px;
+  display: block;
+  margin: 50px auto 25px;
 }
 
-.topic {
-    font-size: 22px;
-    margin-top: 10px;
-    margin-bottom: -15px;
+.links {
+  font-size: 18px;
+  text-align: center;
 }
 
-.location {
-    font-family: 'Merriweather', serif; 
-    font-size: 16px;
-    font-weight: lighter;
-    margin-bottom: -15px;
-}    
-
-.date { 
-    font-size: 16px;
-    font-weight: lighter;
-    color: #404040;
+.links a {
+  padding: 10px;
 }
 
-li {
-    font-family: 'Merriweather', serif; 
-    font-size: 14px;
-    margin-bottom: 5px;
+.bio {
+  padding: 10px;
+  font-size: 16px;
+  line-height: 1.4em;
+  text-align: center;
 }
