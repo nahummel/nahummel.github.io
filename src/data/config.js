@@ -1,10 +1,10 @@
 module.exports = {
-  defaultTitle: 'John Doe',
+  defaultTitle: 'Natalie Hummel',
   logo: 'https://portfolio.smakosh.com/favicon/favicon-512.png',
-  author: 'John Doe',
-  url: 'https://portfolio.smakosh.com',
-  legalName: 'John Doe',
-  defaultDescription: 'I’m John and I’m a Backend & Devops engineer!',
+  author: 'Natalie Hummel',
+  url: 'https://nahummel.github.io',
+  legalName: 'Natalie Hummel',
+  defaultDescription: 'I’m Natalie and I’m a Software Engineer!',
   socialLinks: {
     twitter: 'http://www.twitter.com/smakosh',
     github: 'https://github.com/smakosh',
@@ -27,8 +27,8 @@ module.exports = {
     zipCode: 'ZipCode',
   },
   contact: {
-    email: 'email',
-    phone: 'phone number',
+    email: 'natoms225@gmail.com',
+    phone: '515-230-3371',
   },
-  foundingDate: '2018',
+  foundingDate: '2020',
 };
