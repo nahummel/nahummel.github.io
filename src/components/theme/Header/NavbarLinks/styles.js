@@ -4,7 +4,9 @@ export const Wrapper = styled.div`
   a {
     color: #000;
     text-decoration: none;
-  }
+	color: ${({ theme }) => (theme === 'light' ? '#212121' : '#fff')};
+    mix-blend-mode: ${({ theme }) => (theme === 'light' ? 'unset' : 'difference')};
+  }  
 
   ${({ desktop }) =>
     desktop
@@ -38,3 +40,4 @@ export const Wrapper = styled.div`
 			}
 	`}
 `;
+
