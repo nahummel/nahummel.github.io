@@ -5,61 +5,30 @@ export const Wrapper = styled.div`
 `;
 
 export const Grid = styled.div`
-  display: grid;
-  align-items: center;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 8fr;
-  gap: 1.2rem 1.2rem;
+  display: flex;
+  gap: 1.6rem 4rem;
+`;
+export const ProjectItemWrapper = styled.a`
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+  margin-right: 50px;
+  max-width: 450px;
 
-  @media (max-width: 960px) {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  @media (max-width: 680px) {
-    grid-template-columns: 1fr;
+  img {
+    border-radius: 5px;
   }
 `;
 
-export const Item = styled.div`
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.11);
+export const Details = styled.div`
+  padding-left: 15px;
+  padding-right: 15px;
 
-  h4 {
-    color: ${({ theme }) => (theme === 'light' ? '#212121' : '#fff')};
+  h3 {
+    color: ${({ theme }) => (theme === 'dark' ? '#fff' : '#212121')};
   }
 
   p {
-    color: ${({ theme }) => (theme === 'light' ? '#707070' : '#c7c7c7')};
-  }
-`;
-
-export const Content = styled.div`
-  padding: 1rem 0;
-`;
-
-export const Stats = styled.div`
-  display: flex;
-  align-items: center;
-
-  div {
-    display: flex;
-    &:first-child {
-      margin-right: 0.5rem;
-    }
-
-    img {
-      margin: 0;
-    }
-
-    svg path {
-      fill: ${({ theme }) => (theme === 'light' ? '#000' : '#fff')};
-    }
-
-    span {
-      color: ${({ theme }) => (theme === 'light' ? '#000' : '#fff')};
-      margin-left: 0.5rem;
-    }
+    color: ${({ theme }) => (theme === 'dark' ? '#c7c7c7' : '#707070')};
   }
 `;

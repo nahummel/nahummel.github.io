@@ -17,8 +17,8 @@ export const About = () => {
         <Details theme={theme}>
           <h1>More about me</h1>
           <p>
-            As a recent Prime Digital Academy Full Stack Engineering graduate, I am excited to find a career in tech. 
-            I love the challenge of figuring out difficult code and have a passion for learning. 
+            As a recent Prime Digital Academy Full Stack Engineering graduate, I am excited to find a career in tech. I
+            love the challenge of figuring out difficult code and have a passion for learning.
           </p>
           <Button as={AnchorLink} href="#contact">
             Hire me
