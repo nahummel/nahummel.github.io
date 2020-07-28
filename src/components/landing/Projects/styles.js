@@ -6,7 +6,11 @@ export const Wrapper = styled.div`
 
 export const Grid = styled.div`
   display: flex;
-  gap: 1.6rem 4rem;
+  flex-direction: column;
+
+  @media (min-width: 768px) {
+    flex-direction: row;
+  }
 `;
 export const ProjectItemWrapper = styled.a`
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -14,6 +18,7 @@ export const ProjectItemWrapper = styled.a`
   border-radius: 5px;
   margin-right: 50px;
   max-width: 450px;
+  margin-bottom: 20px;
 
   img {
     border-radius: 5px;
