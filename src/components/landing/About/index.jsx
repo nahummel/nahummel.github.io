@@ -21,7 +21,7 @@ export const About = () => {
             love the challenge of figuring out difficult code and have a passion for learning.
           </p>
           <Button as={AnchorLink} href="#contact">
-            Hire me
+            Contact Me
           </Button>
         </Details>
       </SkillsWrapper>
